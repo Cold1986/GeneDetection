@@ -1,0 +1,13 @@
+.w100 {
+	width: 100%;
+}
+.unhappy {
+	background: #ffb !important;
+}
+#chooseGender .ui-actionsheet-cnt .mt0 {
+	margin-top: 0;
+}
+
+.padding-top-10 {
+	padding-top: 10px;
+}

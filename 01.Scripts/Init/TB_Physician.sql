@@ -1,4 +1,5 @@
-use gene_detection;
+use test;
+drop table TB_Physician
 create table TB_Physician
 (
 Physician_ID int(4)  NOT NULL AUTO_INCREMENT PRIMARY KEY COMMENT '医师编号',
@@ -7,7 +8,7 @@ Wechat_ID varchar(50) NULL COMMENT '微信ID',
 QR_Code varchar(500) NULL COMMENT '情景码',
 FirstName nvarchar(10) NULL COMMENT '名',
 LastName nvarchar(10) NULL  COMMENT '姓',
-Tender varchar(2) NOT NULL default '0' COMMENT '性别 0男 1女',
+Gender varchar(2) NOT NULL default '0' COMMENT '性别 0男 1女',
 #Title nvarchar(100) NULL COMMENT '职称',
 #Position nvarchar(100) NULL COMMENT '职务',
 #Department nvarchar(100) NULL COMMENT '科室',

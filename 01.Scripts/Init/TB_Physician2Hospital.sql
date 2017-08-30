@@ -1,4 +1,4 @@
-use gene_detection;
+use test;
 create table TB_Physician2Hospital
 (
 ID int(4)  NOT NULL AUTO_INCREMENT PRIMARY KEY COMMENT '编号',
